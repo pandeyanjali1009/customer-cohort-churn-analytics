@@ -1,0 +1,53 @@
+Contract,InternetService,TechSupport,PaymentMethod,Customers,Churned,Churn_Rate_Percent
+Month-to-month,Fiber optic,No,Electronic check,1138,716,62.92
+Month-to-month,Fiber optic,No,Mailed check,164,87,53.05
+Month-to-month,Fiber optic,No,Bank transfer (automatic),260,127,48.85
+Month-to-month,DSL,No,Electronic check,365,162,44.38
+Month-to-month,Fiber optic,No,Credit card (automatic),234,103,44.02
+Month-to-month,Fiber optic,Yes,Electronic check,169,73,43.2
+Month-to-month,Fiber optic,Yes,Mailed check,37,15,40.54
+Month-to-month,DSL,No,Mailed check,262,89,33.97
+Month-to-month,Fiber optic,Yes,Bank transfer (automatic),67,22,32.84
+Month-to-month,Fiber optic,Yes,Credit card (automatic),59,19,32.2
+One year,Fiber optic,Yes,Electronic check,77,22,28.57
+Month-to-month,DSL,Yes,Electronic check,109,30,27.52
+Month-to-month,DSL,No,Credit card (automatic),124,34,27.42
+Month-to-month,DSL,Yes,Credit card (automatic),61,16,26.23
+One year,Fiber optic,No,Electronic check,119,29,24.37
+Month-to-month,DSL,No,Bank transfer (automatic),133,32,24.06
+Month-to-month,DSL,Yes,Mailed check,105,24,22.86
+Month-to-month,No,No internet service,Mailed check,325,67,20.62
+Month-to-month,No,No internet service,Bank transfer (automatic),65,13,20.0
+Month-to-month,No,No internet service,Electronic check,69,13,18.84
+One year,Fiber optic,Yes,Credit card (automatic),67,12,17.91
+One year,Fiber optic,Yes,Bank transfer (automatic),66,10,15.15
+One year,Fiber optic,No,Bank transfer (automatic),91,13,14.29
+One year,Fiber optic,No,Credit card (automatic),83,11,13.25
+One year,DSL,No,Electronic check,57,7,12.28
+Two year,Fiber optic,No,Bank transfer (automatic),49,6,12.24
+One year,DSL,Yes,Mailed check,79,9,11.39
+Month-to-month,DSL,Yes,Bank transfer (automatic),64,7,10.94
+One year,DSL,Yes,Credit card (automatic),99,10,10.1
+Two year,Fiber optic,Yes,Electronic check,61,6,9.84
+One year,DSL,No,Credit card (automatic),73,7,9.59
+Month-to-month,No,No internet service,Credit card (automatic),65,6,9.23
+One year,DSL,No,Bank transfer (automatic),56,5,8.93
+One year,DSL,No,Mailed check,58,5,8.62
+Two year,Fiber optic,Yes,Bank transfer (automatic),113,9,7.96
+One year,DSL,Yes,Electronic check,59,4,6.78
+One year,DSL,Yes,Bank transfer (automatic),89,6,6.74
+One year,No,No internet service,Electronic check,35,2,5.71
+One year,No,No internet service,Bank transfer (automatic),89,4,4.49
+Two year,Fiber optic,Yes,Credit card (automatic),114,5,4.39
+Two year,DSL,Yes,Electronic check,38,1,2.63
+Two year,DSL,Yes,Credit card (automatic),196,5,2.55
+Two year,Fiber optic,No,Credit card (automatic),40,1,2.5
+Two year,DSL,No,Bank transfer (automatic),41,1,2.44
+One year,No,No internet service,Credit card (automatic),76,1,1.32
+One year,No,No internet service,Mailed check,164,2,1.22
+Two year,DSL,Yes,Bank transfer (automatic),183,2,1.09
+Two year,No,No internet service,Credit card (automatic),190,2,1.05
+Two year,No,No internet service,Mailed check,252,2,0.79
+Two year,No,No internet service,Bank transfer (automatic),178,1,0.56
+Two year,DSL,Yes,Mailed check,96,0,0.0
+Two year,DSL,No,Credit card (automatic),41,0,0.0

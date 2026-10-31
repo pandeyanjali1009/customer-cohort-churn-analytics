@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Customer Cohort & Churn Analytics</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f4f6fb;color:#172033}
+header{padding:65px 8%;background:linear-gradient(120deg,#172554,#3157c9);color:white}
+header h1{font-size:42px;margin:12px 0}
+header p{max-width:750px;line-height:1.7;color:#e0e7ff}
+nav a{display:inline-block;margin:12px 10px 0 0;padding:11px 17px;border-radius:8px;background:white;color:#2444a5;text-decoration:none;font-weight:bold}
+main{max-width:1150px;margin:35px auto;padding:0 20px}
+section{margin:40px 0;scroll-margin-top:20px}
+h2{font-size:25px}
+.sub{color:#64748b}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.card{background:white;border:1px solid #e4e8f0;border-radius:13px;overflow:hidden;box-shadow:0 5px 18px #15264b0b}
+.content{padding:18px}
+.content p{color:#64748b;font-size:14px}
+iframe{width:100%;height:350px;border:0;border-top:1px solid #eee}
+.heatmap iframe{height:540px}
+a.link{color:#3157c9;font-weight:bold;text-decoration:none}
+.report{padding:25px}
+footer{text-align:center;padding:25px;color:#64748b}
+@media(max-width:700px){
+.grid{grid-template-columns:1fr}
+header h1{font-size:32px}
+iframe{height:300px}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div>DATA ANALYTICS PROJECT | TASK 3</div>
+<h1>Customer Cohort &<br>Churn Analytics</h1>
+<p>
+An interactive data analytics project exploring customer churn,
+retention patterns, customer cohorts, contract types and service usage.
+</p>
+<nav>
+<a href="#report">Analysis Report</a>
+<a href="#heatmap">Interactive Heatmap</a>
+<a href="#charts">Explore Charts</a>
+<a href="#findings">Key Insights</a>
+</nav>
+</header>
+
+<main>
+
+<section id="report">
+<h2>Project Report</h2>
+<div class="card report">
+<h3>Customer Churn Analysis Report</h3>
+<p>Read the complete analysis, methodology, key findings and business recommendations.</p>
+<a class="link" href="https://github.com/pandeyanjali1009/customer-cohort-churn-analytics/blob/main/outputs/churn_analysis_report.md" target="_blank">Read Full Report ↗</a>
+</div>
+</section>
+
+<section id="heatmap">
+<h2>Interactive Cohort Heatmap</h2>
+<p class="sub">Explore customer cohort and contract retention patterns.</p>
+<div class="card heatmap">
+<iframe src="outputs/charts/04_cohort_contract_heatmap.html" title="Cohort heatmap"></iframe>
+<div class="content">
+<a class="link" href="outputs/charts/04_cohort_contract_heatmap.html" target="_blank">Open Full Heatmap ↗</a>
+</div>
+</div>
+</section>
+
+<section id="charts">
+<h2>Interactive Chart Gallery</h2>
+<p class="sub">Explore all eight additional visualizations.</p>
+
+<div class="grid">
+
+<div class="card">
+<div class="content"><h3>01. Retention vs Churn</h3><p>Customer retention and churn comparison.</p></div>
+<iframe src="outputs/charts/01_retention_vs_churn.html" title="Retention vs Churn"></iframe>
+<div class="content"><a class="link" href="outputs/charts/01_retention_vs_churn.html" target="_blank">Open Chart ↗</a></div>
+</div>
+
+<div class="card">
+<div class="content"><h3>02. Churn by Tenure</h3><p>Churn behaviour across customer tenure.</p></div>
+<iframe src="outputs/charts/02_churn_by_tenure.html" title="Churn by Tenure"></iframe>
+<div class="content"><a class="link" href="outputs/charts/02_churn_by_tenure.html" target="_blank">Open Chart ↗</a></div>
+</div>
+
+<div class="card">
+<div class="content"><h3>03. Retention by Tenure</h3><p>Retention trends across tenure groups.</p></div>
+<iframe src="outputs/charts/03_retention_by_tenure.html" title="Retention by Tenure"></iframe>
+<div class="content"><a class="link" href="outputs/charts/03_retention_by_tenure.html" target="_blank">Open Chart ↗</a></div>
+</div>
+
+<div class="card">
+<div class="content"><h3>05. Churn by Contract</h3><p>Churn comparison across contract types.</p></div>
+<iframe src="outputs/charts/05_churn_by_contract.html" title="Churn by Contract"></iframe>
+<div class="content"><a class="link" href="outputs/charts/05_churn_by_contract.html" target="_blank">Open Chart ↗</a></div>
+</div>
+
+<div class="card">
+<div class="content"><h3>06. Churn by Payment Method</h3><p>Payment methods and their relationship with churn.</p></div>
+<iframe src="outputs/charts/06_churn_by_payment.html" title="Churn by Payment"></iframe>
+<div class="content"><a class="link" href="outputs/charts/06_churn_by_payment.html" target="_blank">Open Chart ↗</a></div>
+</div>
+
+<div class="card">
+<div class="content"><h3>07. Churn by Service Tier</h3><p>Churn patterns across service tiers.</p></div>
+<iframe src="outputs/charts/07_churn_by_service_tier.html" title="Churn by Service Tier"></iframe>
+<div class="content"><a class="link" href="outputs/charts/07_churn_by_service_tier.html" target="_blank">Open Chart ↗</a></div>
+</div>
+
+<div class="card">
+<div class="content"><h3>08. Churn by Service Count</h3><p>Relationship between service count and churn.</p></div>
+<iframe src="outputs/charts/08_churn_by_service_count.html" title="Churn by Service Count"></iframe>
+<div class="content"><a class="link" href="outputs/charts/08_churn_by_service_count.html" target="_blank">Open Chart ↗</a></div>
+</div>
+
+<div class="card">
+<div class="content"><h3>09. Churn by Monthly Charges</h3><p>Explore churn patterns based on monthly charges.</p></div>
+<iframe src="outputs/charts/09_churn_by_monthly_charges.html" title="Churn by Monthly Charges"></iframe>
+<div class="content"><a class="link" href="outputs/charts/09_churn_by_monthly_charges.html" target="_blank">Open Chart ↗</a></div>
+</div>
+
+</div>
+</section>
+
+<section id="findings">
+<h2>Key Findings & Business Recommendations</h2>
+<div class="card report">
+<p>
+The analysis examines customer retention, churn behaviour, tenure,
+contract types, payment methods and service usage to identify
+potential customer churn patterns.
+</p>
+<p>
+For the measured findings and data-backed recommendations,
+refer to the complete analysis report.
+</p>
+<a class="link" href="https://github.com/pandeyanjali1009/customer-cohort-churn-analytics/blob/main/outputs/churn_analysis_report.md" target="_blank">View Findings & Recommendations ↗</a>
+</div>
+</section>
+
+</main>
+
+<footer>
+Customer Cohort & Churn Analytics | Data Analytics Project | Task 3
+</footer>
+
+</body>
+</html>

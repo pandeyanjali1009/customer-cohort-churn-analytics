@@ -2,6 +2,16 @@
 
 Python-based retention and churn analysis using the IBM Telco Customer Churn dataset.
 
+## 🚀 Live Project Dashboard
+
+**[Click Here to Explore the Interactive Dashboard](https://pandeyanjali1009.github.io/customer-cohort-churn-analytics/)**
+
+Explore the complete project through the interactive dashboard, including:
+- Customer Churn Analysis Report
+- Interactive Cohort Retention Heatmap
+- 8 Interactive Data Visualizations
+- Key Findings and Business Recommendations
+
 ## Scope
 - Baseline churn and retention rate
 - Tenure cohorts (0–12 through 61–72 months)
